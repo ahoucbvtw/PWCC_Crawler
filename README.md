@@ -34,8 +34,6 @@ As we can see, **「_token」** is a random word. Thus, before login, I turn to 
  
  ![alt text](https://raw.githubusercontent.com/ahoucbvtw/PWCC_Crawler/main/Picture/05.jpg "The table of crawled data")
    
- And here is the total price of year Table and run chart.
- 
-  ![alt text](https://raw.githubusercontent.com/ahoucbvtw/PWCC_Crawler/main/Picture/06.jpg "The total price of year table")
+ And here is the total price of year run chart.
   
  ![alt text](https://raw.githubusercontent.com/ahoucbvtw/PWCC_Crawler/main/Picture/07.png "The total price of run chart")
