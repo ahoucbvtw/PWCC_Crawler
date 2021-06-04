@@ -1,0 +1,2637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Favicons -->
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="apple-mobile-web-app-title" content="PWCC">
+    <meta name="application-name" content="PWCC">
+    <meta name="theme-color" content="#ffffff">
+  
+  <!-- CSRF Token -->
+  <meta name="csrf-token" content="08vN0uRyHUCHYfnjjFyOPYmjA5EKzQqvZAlq5Xwk">
+
+  <title>Trading Card Analytics Tool | PWCC Marketplace</title>
+      <meta name="description" content="The free PWCC trading card pricing tool contains sales data back to 2004 and is the go-to industry research tool to view how much your trading cards are worth.">
+  
+      <script>
+      dataLayer = [{"authenticationState":"authenticated","pwccAccountId":"","vaultAccountId":""}];
+  
+  (
+    function(w,d,s,l,i){
+      w[l] = w[l]||[];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j,f);
+    }
+  )(window, document, 'script', 'dataLayer', '');
+</script>
+  
+  <!-- Styles -->
+  <link href="https://www.pwccmarketplace.com/css/app.css?id=f36e392789d24d349a52" rel="stylesheet">
+
+      <script>
+      var jsConfig={"currentUserTos":"eyJpdiI6IjVSV25CVDUwb1MvSVhweEFSUndEMkE9PSIsInZhbHVlIjoieTFMZ28rKzZQMjhtR2dxc0ZOTDJnUT09IiwibWFjIjoiNTY4NjJjNWUzZWQ5ZjRiZTNiYWMxYWExNDk4Mzk0MWExZDY5NTMwMzVkZDYyNGM2NGVkMTAyNDQxZjQ2ZGVlNyJ9","membersMessage":null};
+    </script>
+      <link href="https://www.pwccmarketplace.com/css/www/www.css?id=979fb1ce68d15e0468b7" rel="stylesheet">
+</head>
+<body class="www">
+
+      <noscript>
+  <iframe
+    src="https://www.googletagmanager.com/ns.html?id=&authenticationState=authenticated&pwccAccountId=&vaultAccountId="
+    height="0"
+    width="0"
+    style="display:none;visibility:hidden"
+  ></iframe>
+</noscript>
+  
+  <div id="app">
+
+    <header>
+      
+      
+              <div class="site-wide-message"><a href="https://www.pwccmarketplace.com/premier-auction-application" class="font-weight-bold">Apply to bid in the Premier Auction</a></div>
+      
+      <div class="header-wrapper context-dark">
+        <div class="container">
+          <div class="row">
+                          <div class="col-4 col-sm-8 col-lg-9">
+    <a class="navbar-logo d-flex align-items-center p-0" href="https://www.pwccmarketplace.com" aria-label="Link to PWCC Homepage">
+      <img src="https://s3-us-west-2.amazonaws.com/pwccauctions/website/logo-yellow-mp.png" alt="PWCC" />
+          </a>
+  </div>
+  <div class="col-8 col-sm-4 col-lg-3">
+    <div class="auth-header d-flex flex-row h-100">
+      <div class="d-flex flex-column flex-fill">
+        <div class="auth-user">
+          <div class="row auth-links m-0 d-none d-sm-flex">
+            <div class="col text-right pt-1 pb-3">
+                            <a href="https://www.pwccmarketplace.com/logout" class="text-primary">Logout</a>
+            </div>
+          </div>
+          <div class="row auth-info m-0 justify-content-end">
+                          <div class="col-12 d-none d-sm-flex align-items-center pl-4">
+                                  xxxxx
+                
+                              </div>
+                      </div>
+        </div>
+      </div>
+
+      <div class="d-flex d-sm-none">
+  <button
+    type="button"
+    class="navbar-toggler px-0"
+    data-toggle="collapse"
+    data-target="#app-navbar-collapse"
+    aria-controls="app-navbar-collapse"
+    aria-expanded="false"
+    aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+</div>
+    </div>
+  </div>
+                      </div>
+        </div>
+
+                  <nav class="navbar navbar-default navbar-dark navbar-expand-sm p-0" aria-label="main-navigation">
+            <div class="collapse navbar-collapse" id="app-navbar-collapse">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12 col-sm-8 col-lg-9">
+                    <ul class="navbar-nav ">
+      <li
+      class="
+        nav-item
+        dropdown
+        
+        
+      ">
+
+      <a
+  href="https://www.pwccmarketplace.com/premier-auction"
+  class="nav-link "
+  
+>
+
+  
+  <span>Premier Auction</span>
+
+  
+
+  </a>
+
+      
+        <ul
+          class="
+            dropdown-menu
+            
+            multi-column flex-row
+          "
+          role="menu">
+
+                                    <li class="column ">
+                <a
+  href="https://www.pwccmarketplace.com/premier-auction"
+  class="nav-link "
+  
+>
+
+  
+  <span>Premier Auction</span>
+
+  <sup>JUL 1ST</sup>
+
+  </a>
+
+                <ul class="nav flex-column last">
+                                      <li class="">
+                      <a
+  href="https://www.pwccmarketplace.com/about-premier-auction"
+  class="nav-link "
+  
+>
+
+  
+  <span>About Premier Auction</span>
+
+  
+
+  </a>
+                    </li>
+                                      <li class="">
+                      <a
+  href="https://www.pwccmarketplace.com/premier-auction-application"
+  class="nav-link "
+  
+>
+
+  
+  <span>Register to Bid</span>
+
+  
+
+  </a>
+                    </li>
+                                      <li class="">
+                      <a
+  href="https://www.pwccmarketplace.com/faq#premier-auction"
+  class="nav-link "
+  
+>
+
+  
+  <span>Premier Auction FAQs</span>
+
+  
+
+  </a>
+                    </li>
+                                  </ul>
+              </li>
+                      
+        </ul>
+
+          </li>
+      <li
+      class="
+        nav-item
+        dropdown
+        
+        
+      ">
+
+      <a
+  href="https://www.pwccmarketplace.com/submit-to-auction"
+  class="nav-link "
+  
+>
+
+  
+  <span>Submit</span>
+
+  
+
+  </a>
+
+      
+        <ul
+          class="
+            dropdown-menu
+            
+            
+          "
+          role="menu">
+
+                                    <li class="">
+                <a
+  href="https://www.pwccmarketplace.com/submit-to-auction"
+  class="nav-link "
+  
+>
+
+  
+  <span>Auction</span>
+
+  
+
+  </a>
+              </li>
+                                                <li class="">
+                <a
+  href="https://www.pwccmarketplace.com/submit-to-vault"
+  class="nav-link "
+  
+>
+
+  
+  <span>Vault</span>
+
+  
+
+  </a>
+              </li>
+                      
+        </ul>
+
+          </li>
+      <li
+      class="
+        nav-item
+        dropdown
+        
+        
+      ">
+
+      <a
+  href="https://www.pwccmarketplace.com/current-auction"
+  class="nav-link "
+  
+>
+
+  
+  <span>Marketplaces</span>
+
+  
+
+  </a>
+
+      
+        <ul
+          class="
+            dropdown-menu
+            
+            
+          "
+          role="menu">
+
+                                    <li class="">
+                <a
+  href="https://www.pwccmarketplace.com/current-auction"
+  class="nav-link "
+  
+>
+
+  
+  <span>Auction Marketplace</span>
+
+  
+
+  </a>
+              </li>
+                                                <li class="">
+                <a
+  href="https://www.pwccmarketplace.com/vault-marketplace"
+  class="nav-link "
+  
+>
+
+  
+  <span>Vault Marketplace</span>
+
+  <sup>LIVE</sup>
+
+  </a>
+              </li>
+                      
+        </ul>
+
+          </li>
+      <li
+      class="
+        nav-item
+        dropdown
+        
+        
+      ">
+
+      <a
+  href="https://www.pwccmarketplace.com/vault"
+  class="nav-link "
+  
+>
+
+  
+  <span>Vault</span>
+
+  
+
+  </a>
+
+      
+        <ul
+          class="
+            dropdown-menu
+            
+            
+          "
+          role="menu">
+
+                                    <li class="">
+                <a
+  href="https://www.pwccmarketplace.com/vault"
+  class="nav-link "
+  
+>
+
+  
+  <span>About</span>
+
+  
+
+  </a>
+              </li>
+                                                <li class="">
+                <a
+  href="https://www.pwccmarketplace.com/vault-demo"
+  class="nav-link "
+  
+>
+
+  
+  <span>Demo</span>
+
+  
+
+  </a>
+              </li>
+                                                <li class="">
+                <a
+  href="https://www.pwccmarketplace.com/vault-pricing"
+  class="nav-link "
+  
+>
+
+  
+  <span>Pricing</span>
+
+  
+
+  </a>
+              </li>
+                                                <li class="">
+                <a
+  href="https://www.pwccmarketplace.com/submit-to-vault"
+  class="nav-link "
+  
+>
+
+  
+  <span>Get Started</span>
+
+  
+
+  </a>
+              </li>
+                      
+        </ul>
+
+          </li>
+      <li
+      class="
+        nav-item
+        dropdown
+        
+        
+      ">
+
+      <a
+  href="https://www.pwccmarketplace.com/market-price-research"
+  class="nav-link active"
+  
+>
+
+  
+  <span>Research</span>
+
+  
+
+      <div class="caret-container d-flex justify-content-center">
+      <div class="caret"></div>
+    </div>
+  </a>
+
+      
+        <ul
+          class="
+            dropdown-menu
+            
+            
+          "
+          role="menu">
+
+                                    <li class="">
+                <a
+  href="https://www.pwccmarketplace.com/market-price-research"
+  class="nav-link active"
+  
+>
+
+  
+  <span>Market Price Research</span>
+
+  
+
+      <div class="caret-container d-flex justify-content-center">
+      <div class="caret"></div>
+    </div>
+  </a>
+              </li>
+                                                <li class="">
+                <a
+  href="https://www.pwccmarketplace.com/sales-history"
+  class="nav-link "
+  
+>
+
+  
+  <span>PWCC Auction Archive</span>
+
+  
+
+  </a>
+              </li>
+                                                <li class="">
+                <a
+  href="https://www.pwccmarketplace.com/market-indices"
+  class="nav-link "
+  
+>
+
+  
+  <span>Market Indices</span>
+
+  
+
+  </a>
+              </li>
+                                                <li class="">
+                <a
+  href="https://www.pwccmarketplace.com/eye-appeal"
+  class="nav-link "
+  
+>
+
+  
+  <span>Eye Appeal Matters</span>
+
+  
+
+  </a>
+              </li>
+                      
+        </ul>
+
+          </li>
+      <li
+      class="
+        nav-item
+        dropdown
+        
+        
+      ">
+
+      <a
+  href="https://www.pwccmarketplace.com/about-the-marketplace"
+  class="nav-link "
+  
+>
+
+  
+  <span>About</span>
+
+  
+
+  </a>
+
+      
+        <ul
+          class="
+            dropdown-menu
+            
+            
+          "
+          role="menu">
+
+                                    <li class="">
+                <a
+  href="https://www.pwccmarketplace.com/about-the-marketplace"
+  class="nav-link "
+  
+>
+
+  
+  <span>About the Marketplace</span>
+
+  
+
+  </a>
+              </li>
+                                                <li class="">
+                <a
+  href="https://www.pwccmarketplace.com/marketplace-tenets"
+  class="nav-link "
+  
+>
+
+  
+  <span>Marketplace Tenets</span>
+
+  
+
+  </a>
+              </li>
+                                                <li class="">
+                <a
+  href="https://www.pwccmarketplace.com/pwcc-for-buyers"
+  class="nav-link "
+  
+>
+
+  
+  <span>PWCC for Buyers</span>
+
+  
+
+  </a>
+              </li>
+                                                <li class="">
+                <a
+  href="https://www.pwccmarketplace.com/why-sell-with-us"
+  class="nav-link "
+  
+>
+
+  
+  <span>PWCC for Sellers</span>
+
+  
+
+  </a>
+              </li>
+                                                <li class="">
+                <a
+  href="https://www.pwccmarketplace.com/capital"
+  class="nav-link "
+  
+>
+
+  
+  <span>Capital</span>
+
+  
+
+  </a>
+              </li>
+                                                <li class="">
+                <a
+  href="https://www.pwccmarketplace.com/contact-us"
+  class="nav-link "
+  
+>
+
+  
+  <span>Contact Us</span>
+
+  
+
+  </a>
+              </li>
+                                                <li class="">
+                <a
+  href="https://www.pwccmarketplace.com/faq"
+  class="nav-link "
+  
+>
+
+  
+  <span>FAQ</span>
+
+  
+
+  </a>
+              </li>
+                                                <li class="">
+                <a
+  href="https://www.pwccmarketplace.com/careers"
+  class="nav-link "
+  
+>
+
+  
+  <span>Careers</span>
+
+  
+
+  </a>
+              </li>
+                      
+        </ul>
+
+          </li>
+  </ul>
+                  </div>
+                  <div class="col-12 col-sm-4 col-lg-3 navbar-right">
+                    <ul class="navbar-nav flex-fill">
+      <li
+      class="
+        nav-item
+        dropdown
+        flex-grow-1
+        
+      ">
+
+      <a
+  href="https://members.pwccmarketplace.com"
+  class="nav-link "
+  
+>
+
+  
+  <span>Members</span>
+
+  
+
+  </a>
+
+      
+        <ul
+          class="
+            dropdown-menu
+            
+            
+          "
+          role="menu">
+
+                                    <li class="">
+                <a
+  href="https://members.pwccmarketplace.com"
+  class="nav-link "
+  
+>
+
+      <i class="d-none d-md-inline-block fa fa-balance-scale"></i>
+  
+  <span>Accounting</span>
+
+  
+
+  </a>
+              </li>
+                                                <li class="">
+                <a
+  href="https://members.pwccmarketplace.com/marketplace/auctions"
+  class="nav-link "
+  
+>
+
+      <i class="d-none d-md-inline-block fa fa-gavel"></i>
+  
+  <span>My Marketplaces</span>
+
+  
+
+  </a>
+              </li>
+                                                <li class="">
+                <a
+  href="https://members.pwccmarketplace.com/vault"
+  class="nav-link "
+  
+>
+
+      <i class="d-none d-md-inline-block fa fa-lock"></i>
+  
+  <span>My Vault</span>
+
+  
+
+  </a>
+              </li>
+                                                <li class="">
+                <a
+  href="https://members.pwccmarketplace.com/accounting/capital"
+  class="nav-link "
+  
+>
+
+      <i class="d-none d-md-inline-block fa fa-bank"></i>
+  
+  <span>My Capital</span>
+
+  
+
+  </a>
+              </li>
+                      
+        </ul>
+
+          </li>
+      <li
+      class="
+        nav-item
+        
+        flex-grow-1
+        d-sm-none order-last
+      ">
+
+      <a
+  href="https://www.pwccmarketplace.com/logout"
+  class="nav-link "
+  
+>
+
+  
+  <span>Logout</span>
+
+  
+
+  </a>
+
+          </li>
+      <li
+      class="
+        nav-item
+        dropdown
+        flex-grow-1
+        
+      ">
+
+      <a
+  href="https://members.pwccmarketplace.com/preferences"
+  class="nav-link "
+  
+>
+
+  
+  <span>My Account</span>
+
+  
+
+  </a>
+
+      
+        <ul
+          class="
+            dropdown-menu
+            dropdown-menu-right
+            
+          "
+          role="menu">
+
+                                    <li class="">
+                <a
+  href="https://members.pwccmarketplace.com/preferences"
+  class="nav-link "
+  
+>
+
+      <i class="d-none d-md-inline-block fa fa-gear"></i>
+  
+  <span>Preferences</span>
+
+  
+
+  </a>
+              </li>
+                                                <li class="">
+                <a
+  href="https://members.pwccmarketplace.com/documents"
+  class="nav-link "
+  
+>
+
+      <i class="d-none d-md-inline-block fa fa-newspaper-o"></i>
+  
+  <span>Documents</span>
+
+  
+
+  </a>
+              </li>
+                      
+        </ul>
+
+          </li>
+  </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+              </div>
+
+              <div class="submenu-wrapper d-none d-sm-block main">
+          <nav class="navbar navbar-default navbar-expand-sm p-0" aria-label="sub-navigation">
+            <div class="container">
+              <ul class="navbar-nav ">
+      <li
+      class="
+        nav-item
+        
+        
+        
+      ">
+
+      <a
+  href="https://www.pwccmarketplace.com/market-price-research"
+  class="nav-link active"
+  
+>
+
+  
+  <span>Market Price Research</span>
+
+  
+
+      <div class="caret-container d-flex justify-content-center">
+      <div class="caret"></div>
+    </div>
+  </a>
+
+          </li>
+      <li
+      class="
+        nav-item
+        
+        
+        
+      ">
+
+      <a
+  href="https://www.pwccmarketplace.com/sales-history"
+  class="nav-link "
+  
+>
+
+  
+  <span>PWCC Auction Archive</span>
+
+  
+
+  </a>
+
+          </li>
+      <li
+      class="
+        nav-item
+        
+        
+        
+      ">
+
+      <a
+  href="https://www.pwccmarketplace.com/market-indices"
+  class="nav-link "
+  
+>
+
+  
+  <span>Market Indices</span>
+
+  
+
+  </a>
+
+          </li>
+      <li
+      class="
+        nav-item
+        
+        
+        
+      ">
+
+      <a
+  href="https://www.pwccmarketplace.com/eye-appeal"
+  class="nav-link "
+  
+>
+
+  
+  <span>Eye Appeal Matters</span>
+
+  
+
+  </a>
+
+          </li>
+  </ul>
+            </div>
+          </nav>
+        </div>
+      
+          </header>
+
+    <main>
+      <div class="main-wrapper bg-light">
+        <div class="menu-slant"></div>
+        <div class="container">
+          <div class="row main-top">
+            <div class="col-sm-12">
+              
+
+              
+                                                                                                                                                                                                  
+              
+                                                <div class="row overflow mb-4 justify-content-between">
+  <div class="col-auto">
+    <h1>Market Price<br />Research</h1>
+    <h2 class="ebay-subtitle">
+  Powered by
+  <a href="https://rover.ebay.com/rover/1/711-53200-19255-0/1?icep_id=114&amp;ipn=icep&amp;toolid=20004&amp;campid=5338255052&amp;mpre=https%3A%2F%2Fwww.ebay.com%2Fb%2FSports-Trading-Cards-Accessories%2F212%2Fbn_1859819" target="_blank">
+    <img src="https://s3-us-west-2.amazonaws.com/pwccauctions/website/ebay-logo.png" alt="eBay" />
+  </a>
+</h2>
+  </div>
+  <div class="d-none d-sm-block col-auto">
+    <a
+  href="https://www.pwccmarketplace.com/vault"
+  class="btn vault-ad bg-size-cover bg-cards-1 d-flex align-items-center p-2 px-sm-3 py-sm-2"
+>
+  <img src="https://s3-us-west-2.amazonaws.com/pwccauctions/website/overlays/pwcc-vault-overlay.png" alt="PWCC Vault" class="mr-3" />
+  <p class="mb-0 ml-sm-2 text-white font-weight-bold text-left">
+    See where intelligent researchers like you<br class="d-none d-sm-block" />
+    store their collections with confidence.
+  </p>
+</a>
+  </div>
+</div>
+                                          </div>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div class="row main">
+            <div class="col-sm-12">
+                                    <div class="market-price-research">
+      <div class="row overflow">
+  <div class="container context-light page-header">
+    <div class="row overflow">
+      <div class="col">
+        <p>Search all eBay trading card sales since 2004, free to all PWCC Members. In total, this database houses over 200 million transactions and represents the single largest data set of prior sales ever presented to the public. Important to note that this data is largely raw and unfiltered, and should be researched carefully. The editing that has <span id="see-desc"> ... <a href="#" id="see-desc-link" data-toggle="collapse" data-target="#ebay-desc-2"><i class="fa fa-plus-circle"></i> See Full Description</a></span> <span id="ebay-desc-1" class="invisible">taken place is as follows:</span></p>
+        <div id="ebay-desc-2" class="collapse">
+          <ul>
+            <li>Sold Price filter is defaulted to $50 (can be moved to $0 if desired).</li>
+            <li>Sale Type filter is defaulted to auction sales only (can include fixed-price sales if desired).</li>
+            <li>Unpaid items are flagged and removed from the database since they don’t represent a true sale on the marketplace.</li>
+            <li>Listings with the word 'reprint' in the title are automatically removed.</li>
+            <li>Images are only available for sales after early March 2018.</li>
+          </ul>
+          <p>Both eBay and PWCC are proud to offer this tool free to the public as both companies work to better afford collectors and investors the tools they need to participate in the trading card marketplace. Please forward any comments regarding this page to <a href="mailto:cs@pwccmarketplace.com">cs@pwccmarketplace.com</a>.</p>
+          <a href="#" id="hide-desc" class="btn btn-sm btn-warning float-right" data-toggle="collapse"  data-target="#ebay-desc-2"><i class="fa fa-minus-circle"></i> Hide Details</a>
+        </div>
+
+        <div class="d-md-none mb-3">
+          <a
+  href="https://www.pwccmarketplace.com/vault"
+  class="btn vault-ad bg-size-cover bg-cards-1 d-flex align-items-center p-2 px-sm-3 py-sm-2"
+>
+  <img src="https://s3-us-west-2.amazonaws.com/pwccauctions/website/overlays/pwcc-vault-overlay.png" alt="PWCC Vault" class="mr-3" />
+  <p class="mb-0 ml-sm-2 text-white font-weight-bold text-left">
+    See where intelligent researchers like you<br class="d-none d-sm-block" />
+    store their collections with confidence.
+  </p>
+</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row overflow">
+  <div class="container reports">
+    <div class="row">
+      <div class="col">
+        <form class="report-form">
+          <input type="submit" class="sr-only" />
+
+          <div class="row search-container">
+            <div class="container">
+              <div class="search-box">
+                <div class="btn-group input-group search">
+  <i class="search-icon fa fa-search"></i>
+  <input
+    type="search"
+    name="q"
+    class="form-control active"
+    placeholder="Keyword Search"
+    value="2003 lebron rc  topps chrome refractor psa"
+    
+    
+    aria-label="Search"
+  />
+  <span class="btn-search-clear fa fa-times-circle "></span>
+</div>
+              </div>
+
+                              <div class="context-alt search-results-message lead clearfix">
+                  <div class="row overflow">
+                    <div class="col-md-6 results-message text-center text-md-left">
+                      Results for: <strong>2003 lebron rc  topps chrome refractor psa</strong>
+                    </div>
+                    <div class="col-md-6 text-center text-md-right">
+                                              Showing
+                        1-50
+                        of 297 results
+
+                        <a
+                          class="btn btn-sm btn-primary no-wrap mt-2 mt-sm-0"
+                          href="https://rover.ebay.com/rover/1/711-53200-19255-0/1?icep_id=114&amp;ipn=icep&amp;toolid=20004&amp;campid=5338255052&amp;mpre=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3D2003%2Blebron%2Brc%2B%2Btopps%2Bchrome%2Brefractor%2Bpsa%2B-reprint%2B-reprints"
+                          target="_blank"><i class="fa fa-external-link"></i> Find on <img src="https://s3-us-west-2.amazonaws.com/pwccauctions/website/ebay-logo.png" alt="eBay" /></a>
+                                          </div>
+                  </div>
+                </div>
+              
+            </div>
+          </div>
+
+                      
+            <div class="row overflow d-md-none">
+              <div class="col-12 pb-3">
+                <a href="#" id="filters-toggle" class="btn btn-sm btn-primary" data-toggle="collapse"  data-target=".filter-collapse">
+                  <span class="show"><i class="fa fa-plus-circle"></i> Show Filters</span>
+                  <span class="hide"><i class="fa fa-minus-circle"></i> Hide Filters</span>
+                </a>
+              </div>
+            </div>
+            <div class="filter-collapse collapse show">
+              <div class="row sliders">
+                <div class="col-sm-12 col-md-6">
+                  <div class="slider">
+                    <div class="text-center">Time frame</div>
+                    <div class="slider-widget">
+                      <div
+                        class="noUiSlider"
+                        id="year_slider"
+                        data-min="2004"
+                        data-max="2021"
+                        data-start="[2004, 2021]"
+                        aria-label="Year Filter Slider"
+                      ></div>
+                    </div>
+                    <input type="hidden" name="year_min" value="2004" />
+                    <input type="hidden" name="year_max" value="2021" />
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                  <div class="slider">
+                    <div class="text-center">Sold Price Range</div>
+                    <div class="slider-widget">
+                      <div
+                        class="noUiSlider"
+                        id="price_slider"
+                        data-min="0"
+                        data-max="10000"
+                        data-start="[50, 10000]"
+                        aria-label="Price Filter Slider"
+                      ></div>
+                    </div>
+                    <input type="hidden" name="price_min" value="50" />
+                    <input type="hidden" name="price_max" value="10000" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="navbar navbar-primary justify-content-start">
+
+                <div class="form-group">
+                  <label>Sort:</label>
+                  <div>
+                    <select name="sort_by" onchange="this.form.submit()" aria-label="Sort By">
+                                              <option value="date_desc" selected=&quot;selected&quot;>
+                          Date: Newest First
+                        </option>
+                                              <option value="date_asc">
+                          Date: Oldest First
+                        </option>
+                                              <option value="price_high">
+                          Price: Highest First
+                        </option>
+                                              <option value="price_low">
+                          Price: Lowest First
+                        </option>
+                                          </select>
+                  </div>
+                </div>
+
+                
+                <div class="form-group">
+                  <label>Sale Type</label>
+                  <div>
+                    <select name="sale_type" onchange="this.form.submit()" aria-label="Sale Type">
+                                              <option value="auction" selected=&quot;selected&quot;>
+                          Auction Only
+                        </option>
+                                              <option value="fixed">
+                          Fixed Price Only
+                        </option>
+                                              <option value="all">
+                          Auction &amp; Fixed Price
+                        </option>
+                                          </select>
+                  </div>
+                </div>
+
+                <div class="navbar-right ml-sm-auto">
+                                      <div class="form-group">
+    <ul class="small-pagination">
+      
+              <li class="page-item disabled">
+          <span class="page-link">&laquo;</span>
+        </li>
+        <li class="page-item active">
+          <span class="page-link">1</span>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="https://www.pwccmarketplace.com/market-price-research?items_per_page=50&amp;price_max=10000&amp;price_min=50&amp;q=2003%20lebron%20rc%20%20topps%20chrome%20refractor%20psa&amp;sale_type=auction&amp;sort_by=date_desc&amp;year_max=2021&amp;year_min=2004&amp;page=2">2</a>
+        </li>
+      
+      
+      
+              <li class="page-item disabled hidden-xs">
+          <span class="page-link">...</span>
+        </li>
+      
+      
+      
+              <li class="page-item">
+          <a class="page-link" href="https://www.pwccmarketplace.com/market-price-research?items_per_page=50&amp;price_max=10000&amp;price_min=50&amp;q=2003%20lebron%20rc%20%20topps%20chrome%20refractor%20psa&amp;sale_type=auction&amp;sort_by=date_desc&amp;year_max=2021&amp;year_min=2004&amp;page=2" rel="next">&raquo;</a>
+        </li>
+          </ul>
+  </div>
+
+  
+  
+
+                  
+                  <div class="form-group">
+                    <label>Items:</label>
+                    <div>
+                      <select name="items_per_page" onchange="this.form.submit()">
+                                                  <option value="25">
+                            25
+                          </option>
+                                                  <option value="50" selected=&quot;selected&quot;>
+                            50
+                          </option>
+                                                  <option value="100">
+                            100
+                          </option>
+                                                  <option value="250">
+                            250
+                          </option>
+                                              </select>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+                  </form>
+      </div>
+    </div>
+
+    <div class="row overflow">
+      <div class="col">
+                  <div class="list-view results">
+            <table class="table table-striped table-bordered">
+              <tr class="d-none d-md-table-row">
+                <th></th>
+                <th></th>
+                <th>Sale Date</th>
+                <th>Sale Type</th>
+                <th>Sold Price</th>
+              </tr>
+                              
+                <tr>
+                  <td class="item-image">
+                                          <img class="img-fluid d-block mx-auto hover-scale" src="https://drg841dfpwbo9.cloudfront.net/2021/05/22/e8a46d1ef954ed49db94108332651f35.jpg" alt="Image of: LEBRON JAMES PSA 8 NM-MT LAKERS ROOKIE REFRACTOR #111 RC SP 2003-04 TOPPS CHROME" />
+                                      </td>
+                  <td class="card-title">
+                    LEBRON JAMES PSA 8 NM-MT LAKERS ROOKIE REFRACTOR #111 RC SP 2003-04 TOPPS CHROME
+
+                  </td>
+                  <td class="no-wrap">
+                    <span class="d-md-none">Date Sold:</span>
+                    May 22, 2021
+                  </td>
+                  <td>
+                    <span class="d-md-none">Sale Type:</span>
+                    Auction
+                  </td>
+                  <td class="item-price">
+                                          $16,200.00
+                                      </td>
+                </tr>
+                                                                
+                <tr>
+                  <td class="item-image">
+                                          <img class="img-fluid d-block mx-auto hover-scale" src="https://drg841dfpwbo9.cloudfront.net/2021/05/13/3899d9c9e1924fd2864d1e6f7576cf8b.jpg" alt="Image of: LEBRON JAMES PSA 8 NM-MT LAKERS ROOKIE REFRACTOR #111 RC SP 2003-04 TOPPS CHROME" />
+                                      </td>
+                  <td class="card-title">
+                    LEBRON JAMES PSA 8 NM-MT LAKERS ROOKIE REFRACTOR #111 RC SP 2003-04 TOPPS CHROME
+
+                  </td>
+                  <td class="no-wrap">
+                    <span class="d-md-none">Date Sold:</span>
+                    May 13, 2021
+                  </td>
+                  <td>
+                    <span class="d-md-none">Sale Type:</span>
+                    Auction
+                  </td>
+                  <td class="item-price">
+                                          $17,400.00
+                                      </td>
+                </tr>
+                              
+                <tr>
+                  <td class="item-image">
+                                          <img class="img-fluid d-block mx-auto hover-scale" src="https://drg841dfpwbo9.cloudfront.net/2021/05/11/d7424a0b62a9104ee7613bce7325e08a.jpg" alt="Image of: 2003 Topps Chrome Refractor LeBron James ROOKIE RC #111 PSA 9 MINT" />
+                                      </td>
+                  <td class="card-title">
+                    2003 Topps Chrome Refractor LeBron James ROOKIE RC #111 PSA 9 MINT
+
+                  </td>
+                  <td class="no-wrap">
+                    <span class="d-md-none">Date Sold:</span>
+                    May 11, 2021
+                  </td>
+                  <td>
+                    <span class="d-md-none">Sale Type:</span>
+                    Auction
+                  </td>
+                  <td class="item-price">
+                                          $37,488.88
+                                      </td>
+                </tr>
+                              
+                <tr>
+                  <td class="item-image">
+                                          <img class="img-fluid d-block mx-auto hover-scale" src="https://dw7591lwb84er.cloudfront.net/eyJpdiI6InBwSkhlT2ZyK0VMRUdYOHRKSHVRZWc9PSIsInZhbHVlIjoiaVlLa3M4and5UHNWTEZxTVd0MlZKS1VFcmF4MlkrU0NsMmprNWMwVFJXbTRrWUZvc2FFRTJINVdkSlZWWkVHUGFsRFpXL2trRHBtd0YwRGJmbTNrNUE9PSIsIm1hYyI6IjM1MzkxZThlYWNkZWQzMDNiZjVjNjUyN2RhYTU0MzIwNjQ2YTU5YmY4MjhjYjA0ZmQyZTBhNzA1M2EyNDlhMTEifQ==" alt="Image of: 2003 Topps Chrome Refractor LeBron James ROOKIE RC #111 PSA 9 MINT" />
+                                      </td>
+                  <td class="card-title">
+                    2003 Topps Chrome Refractor LeBron James ROOKIE RC #111 PSA 9 MINT
+
+                  </td>
+                  <td class="no-wrap">
+                    <span class="d-md-none">Date Sold:</span>
+                    Apr 30, 2021
+                  </td>
+                  <td>
+                    <span class="d-md-none">Sale Type:</span>
+                    Auction
+                  </td>
+                  <td class="item-price">
+                                          $33,100.00
+                                      </td>
+                </tr>
+                              
+                <tr>
+                  <td class="item-image">
+                                          <img class="img-fluid d-block mx-auto hover-scale" src="https://dw7591lwb84er.cloudfront.net/eyJpdiI6InJyRUVFNUl4dUtmenZic3lwZ0UrbFE9PSIsInZhbHVlIjoiMjhidmViN2FMWmVvWjQ0eXgvWHlTaEJMdGJqMXFGYjF2WVZvVVpxS0JDY0sxZVJxZ0NjRnRTWHFtczZXU04vM041OFZ1K2tBcGFMam83VElPQW5ra0E9PSIsIm1hYyI6IjFlYzI4NTc1MTI0MmNiMDc2MTRhYzU1NTYzNmY0ZmM3ZGFlMjk5NzQyNThlOGNjYzVhZTdiODlmNTU4NWM3ZjcifQ==" alt="Image of: 2003 Topps Chrome Refractor LeBron James ROOKIE RC #111 PSA 8 NM-MT" />
+                                      </td>
+                  <td class="card-title">
+                    2003 Topps Chrome Refractor LeBron James ROOKIE RC #111 PSA 8 NM-MT
+
+                  </td>
+                  <td class="no-wrap">
+                    <span class="d-md-none">Date Sold:</span>
+                    Apr 30, 2021
+                  </td>
+                  <td>
+                    <span class="d-md-none">Sale Type:</span>
+                    Auction
+                  </td>
+                  <td class="item-price">
+                                          $18,421.00
+                                      </td>
+                </tr>
+                              
+                <tr>
+                  <td class="item-image">
+                                          <img class="img-fluid d-block mx-auto hover-scale" src="https://dw7591lwb84er.cloudfront.net/eyJpdiI6IkdzWjJhK0x6eDhKUEhFKzA5TElHMnc9PSIsInZhbHVlIjoiTnhQcEx0Skt3cHE0SGVVUFM4dHg1UnRqYnRmN2ZQTEVrekJmODdnaE1YN2JtNUhBbTMza0xPL1FZS3ZUR1U3bjNTUEJKQlptdDdkZzZrWEVyQW1NMEE9PSIsIm1hYyI6ImE3OTRhZGE2MjdlZTQxODNkYjdkNDYxOGVmNGE3YTEwNzdmMjI1ZjBmM2M5MjI4Y2MzMDIyOWRkY2Y2NzViOTYifQ==" alt="Image of: 2003 Topps Chrome Refractor LeBron James ROOKIE RC #111 PSA 9 MINT" />
+                                      </td>
+                  <td class="card-title">
+                    2003 Topps Chrome Refractor LeBron James ROOKIE RC #111 PSA 9 MINT
+
+                  </td>
+                  <td class="no-wrap">
+                    <span class="d-md-none">Date Sold:</span>
+                    Mar 31, 2021
+                  </td>
+                  <td>
+                    <span class="d-md-none">Sale Type:</span>
+                    Auction
+                  </td>
+                  <td class="item-price">
+                                          $37,600.00
+                                      </td>
+                </tr>
+                                                                
+                <tr>
+                  <td class="item-image">
+                                          <img class="img-fluid d-block mx-auto hover-scale" src="https://drg841dfpwbo9.cloudfront.net/2021/03/30/810115ca94877e0b449a9eb345aae6a0.jpg" alt="Image of: 2003 Topps Chrome Black Refractor LeBron James ROOKIE RC /500 PSA 8 NM-MT" />
+                                      </td>
+                  <td class="card-title">
+                    2003 Topps Chrome Black Refractor LeBron James ROOKIE RC /500 PSA 8 NM-MT
+
+                  </td>
+                  <td class="no-wrap">
+                    <span class="d-md-none">Date Sold:</span>
+                    Mar 30, 2021
+                  </td>
+                  <td>
+                    <span class="d-md-none">Sale Type:</span>
+                    Auction
+                  </td>
+                  <td class="item-price">
+                                          $51,211.00
+                                      </td>
+                </tr>
+                              
+                <tr>
+                  <td class="item-image">
+                                          <img class="img-fluid d-block mx-auto hover-scale" src="https://drg841dfpwbo9.cloudfront.net/2021/03/26/16e8bd0c63782646af7e9cf319551751.jpg" alt="Image of: 2003 Topps Chrome Refractor LeBron James ROOKIE RC #111 PSA 8 NM-MT" />
+                                      </td>
+                  <td class="card-title">
+                    2003 Topps Chrome Refractor LeBron James ROOKIE RC #111 PSA 8 NM-MT
+
+                  </td>
+                  <td class="no-wrap">
+                    <span class="d-md-none">Date Sold:</span>
+                    Mar 26, 2021
+                  </td>
+                  <td>
+                    <span class="d-md-none">Sale Type:</span>
+                    Auction
+                  </td>
+                  <td class="item-price">
+                                          $19,100.00
+                                      </td>
+                </tr>
+                              
+                <tr>
+                  <td class="item-image">
+                                          <img class="img-fluid d-block mx-auto hover-scale" src="https://drg841dfpwbo9.cloudfront.net/2021/03/13/3d908e878d4be611daae9be3542bcf99.jpg" alt="Image of: 2003-04 Topps Chrome Basketball Complete REFRACTOR Set LeBron James RC PSA 8" />
+                                      </td>
+                  <td class="card-title">
+                    2003-04 Topps Chrome Basketball Complete REFRACTOR Set LeBron James RC PSA 8
+
+                  </td>
+                  <td class="no-wrap">
+                    <span class="d-md-none">Date Sold:</span>
+                    Mar 13, 2021
+                  </td>
+                  <td>
+                    <span class="d-md-none">Sale Type:</span>
+                    Auction
+                  </td>
+                  <td class="item-price">
+                                          $27,877.77
+                                      </td>
+                </tr>
+                              
+                <tr>
+                  <td class="item-image">
+                                          <img class="img-fluid d-block mx-auto hover-scale" src="https://drg841dfpwbo9.cloudfront.net/2021/02/28/b1142442195671d3a8de6969cb03dbc6.jpg" alt="Image of: 2003-04 Topps Chrome Refractor #111 Lebron James RC Rookie PSA 9 MINT" />
+                                      </td>
+                  <td class="card-title">
+                    2003-04 Topps Chrome Refractor #111 Lebron James RC Rookie PSA 9 MINT
+
+                  </td>
+                  <td class="no-wrap">
+                    <span class="d-md-none">Date Sold:</span>
+                    Feb 28, 2021
+                  </td>
+                  <td>
+                    <span class="d-md-none">Sale Type:</span>
+                    Auction
+                  </td>
+                  <td class="item-price">
+                                          $50,401.00
+                                      </td>
+                </tr>
+                              
+                <tr>
+                  <td class="item-image">
+                                          <img class="img-fluid d-block mx-auto hover-scale" src="https://dw7591lwb84er.cloudfront.net/eyJpdiI6IjdxZnE5Z1lqbkdoQmMwdTBKUWRqdVE9PSIsInZhbHVlIjoiR3NDcGpxd3JSRmllNHNOQS9VSDJLTzBoemJOLzk1cVN5NlVnQktqdG5RRG5pQzVmMjVxVi9OdkpVLzFiUUVJS3VobHV6TmZ4Q0FqN2JadWRYVUg1a0E9PSIsIm1hYyI6IjViYWZiMGRmMTc2ZWIyZjA0MTExNjdlMmJlN2ZkOWUxMzAwYWY5ZjgzYTI3MWU4YzNmYzYyMDY1OGNiYmNiNzcifQ==" alt="Image of: 2003 Topps Chrome Refractor LeBron James ROOKIE RC #111 PSA 9 MINT" />
+                                      </td>
+                  <td class="card-title">
+                    2003 Topps Chrome Refractor LeBron James ROOKIE RC #111 PSA 9 MINT
+
+                  </td>
+                  <td class="no-wrap">
+                    <span class="d-md-none">Date Sold:</span>
+                    Feb 26, 2021
+                  </td>
+                  <td>
+                    <span class="d-md-none">Sale Type:</span>
+                    Auction
+                  </td>
+                  <td class="item-price">
+                                          $45,700.00
+                                      </td>
+                </tr>
+                                                                                                                                    
+                <tr>
+                  <td class="item-image">
+                                          <img class="img-fluid d-block mx-auto hover-scale" src="https://drg841dfpwbo9.cloudfront.net/2021/01/17/3c413342f4c157cbca47de0cf93182ab.jpg" alt="Image of: 2003 Topps Chrome Refractor LeBron James RC#111 PSA 8 NM-MT" />
+                                      </td>
+                  <td class="card-title">
+                    2003 Topps Chrome Refractor LeBron James RC#111 PSA 8 NM-MT
+
+                  </td>
+                  <td class="no-wrap">
+                    <span class="d-md-none">Date Sold:</span>
+                    Jan 17, 2021
+                  </td>
+                  <td>
+                    <span class="d-md-none">Sale Type:</span>
+                    Auction
+                  </td>
+                  <td class="item-price">
+                                          $16,200.00
+                                      </td>
+                </tr>
+                              
+                <tr>
+                  <td class="item-image">
+                                          <img class="img-fluid d-block mx-auto hover-scale" src="https://dw7591lwb84er.cloudfront.net/eyJpdiI6IlhGaTcrN3o3WjAyWGlOcjZqdTJQZkE9PSIsInZhbHVlIjoiM2xTbEw3d213RjFTZDFnSyt1SVovUGVvSFovM2FBUG5wWURpY0dVQ05raHU0Rnc2L0ZQb21GVk4yMkU1Q0k4UTlkK3NET0VUU3g5TlVMR1BjZmZ0UkE9PSIsIm1hYyI6IjgzODRiMDBiYWM0NjIzYmZjMzVhM2JmYWY0NDkxMjZkNzEzMWE1MzA5ZmZiOWFhZDk5YzQ1MDI1ZTY4ZjNlNmEifQ==" alt="Image of: 2003 Topps Chrome Refractor LeBron James ROOKIE RC #111 PSA 10 GEM MINT" />
+                                      </td>
+                  <td class="card-title">
+                    2003 Topps Chrome Refractor LeBron James ROOKIE RC #111 PSA 10 GEM MINT
+
+                  </td>
+                  <td class="no-wrap">
+                    <span class="d-md-none">Date Sold:</span>
+                    Dec 30, 2020
+                  </td>
+                  <td>
+                    <span class="d-md-none">Sale Type:</span>
+                    Auction
+                  </td>
+                  <td class="item-price">
+                                          $94,300.00
+                                      </td>
+                </tr>
+                              
+                <tr>
+                  <td class="item-image">
+                                          <img class="img-fluid d-block mx-auto hover-scale" src="https://dw7591lwb84er.cloudfront.net/eyJpdiI6IlF0dGNOaTlpejd0OGJQQklMMGZNZGc9PSIsInZhbHVlIjoibzBDNnUyYmdDeHpja0FBZVZMSFVBODZLZzFqeUU0V1Nrd2k1MldXWXpCbEJCZVZ4OWlKc25PMVRUYjdVZFFVdkNSM3IzZDZNVDRpdnVVMVZxMmg4Mmc9PSIsIm1hYyI6IjE2ZTYyNzUzNjNjNmY0NzQzMGY5NTZhMWFhODA2ZWUxYTc0ZDNiZmNkYjBjYmMzOTc4YzczN2ZjNmEzMzlmNDkifQ==" alt="Image of: 2003 Topps Chrome Refractor LeBron James ROOKIE RC #111 PSA 9 MINT" />
+                                      </td>
+                  <td class="card-title">
+                    2003 Topps Chrome Refractor LeBron James ROOKIE RC #111 PSA 9 MINT
+
+                  </td>
+                  <td class="no-wrap">
+                    <span class="d-md-none">Date Sold:</span>
+                    Dec 21, 2020
+                  </td>
+                  <td>
+                    <span class="d-md-none">Sale Type:</span>
+                    Auction
+                  </td>
+                  <td class="item-price">
+                                          $21,100.00
+                                      </td>
+                </tr>
+                                                                
+                <tr>
+                  <td class="item-image">
+                                          <img class="img-fluid d-block mx-auto hover-scale" src="https://dw7591lwb84er.cloudfront.net/eyJpdiI6ImdoeWthMVlIeWdYelhudHh2UTBNd3c9PSIsInZhbHVlIjoiQnlQMFpwbTVyNTdlUW5rdjZyWHdVbWtpWnk1U2NTZm1nTnVzcXlBdStpTmd2Yy84RGZNSUZqOWNzUW5FdFdqdUpmRFZyWmNHN2QyTjRsaGFHZmtVV3c9PSIsIm1hYyI6Ijc2YzUwOGUzY2U1NzNiOTM1ZTIwNzc5MmNjN2E2OGExZDYyNTNmNTFjZGY0ZGU2OTUzNDFlYTdkNzA3ODM4MzYifQ==" alt="Image of: 2003 Topps Chrome Refractor LeBron James ROOKIE RC #111 PSA 8 NM-MT" />
+                                      </td>
+                  <td class="card-title">
+                    2003 Topps Chrome Refractor LeBron James ROOKIE RC #111 PSA 8 NM-MT
+
+                  </td>
+                  <td class="no-wrap">
+                    <span class="d-md-none">Date Sold:</span>
+                    Nov 17, 2020
+                  </td>
+                  <td>
+                    <span class="d-md-none">Sale Type:</span>
+                    Auction
+                  </td>
+                  <td class="item-price">
+                                          $9,600.00
+                                      </td>
+                </tr>
+                              
+                <tr>
+                  <td class="item-image">
+                                          <img class="img-fluid d-block mx-auto hover-scale" src="https://dw7591lwb84er.cloudfront.net/eyJpdiI6IkJSZGJxMURUWVdCMkJHd213Q2tIRmc9PSIsInZhbHVlIjoiZ1FremRQR3pTT2p6VUVCNjZRVHdGVkVsWHdBaXNoOWZqZlRmZGV3YWd3WHQ3amtWeEpvUkVIVDlPYWhJREtUT01DWnAxMVZWY042VmdBc0ExRnZUVkE9PSIsIm1hYyI6ImMzZDg5MDg4ZTI4NThlYmFkYmFlNzAzODUyMDM0YTdmMDdhY2M4ZTZjYzcyNmI3NGQ3M2Q1NGQ2MzA1NzA4OWYifQ==" alt="Image of: 2003 Topps Chrome Black Refractor LeBron James ROOKIE RC /500 #111 PSA 9 MINT" />
+                                      </td>
+                  <td class="card-title">
+                    2003 Topps Chrome Black Refractor LeBron James ROOKIE RC /500 #111 PSA 9 MINT
+
+                  </td>
+                  <td class="no-wrap">
+                    <span class="d-md-none">Date Sold:</span>
+                    Oct 29, 2020
+                  </td>
+                  <td>
+                    <span class="d-md-none">Sale Type:</span>
+                    Auction
+                  </td>
+                  <td class="item-price">
+                                          $36,355.00
+                                      </td>
+                </tr>
+                              
+                <tr>
+                  <td class="item-image">
+                                          <img class="img-fluid d-block mx-auto hover-scale" src="https://drg841dfpwbo9.cloudfront.net/2020/10/12/4bf6670dce03499522247180a07dc310.jpg" alt="Image of: 2003 Topps Chrome Refractor LeBron James ROOKIE RC #111 PSA 9 MINT" />
+                                      </td>
+                  <td class="card-title">
+                    2003 Topps Chrome Refractor LeBron James ROOKIE RC #111 PSA 9 MINT
+
+                  </td>
+                  <td class="no-wrap">
+                    <span class="d-md-none">Date Sold:</span>
+                    Oct 12, 2020
+                  </td>
+                  <td>
+                    <span class="d-md-none">Sale Type:</span>
+                    Auction
+                  </td>
+                  <td class="item-price">
+                                          $18,100.00
+                                      </td>
+                </tr>
+                              
+                <tr>
+                  <td class="item-image">
+                                          <img class="img-fluid d-block mx-auto hover-scale" src="https://drg841dfpwbo9.cloudfront.net/2020/10/11/e43d2ea97e84a6c558fc2017c0ee6623.jpg" alt="Image of: LEBRON JAMES 2003-04 Topps Chrome Refractor PSA 9 RC Rookie 111 bgs 03-04 LeBron" />
+                                      </td>
+                  <td class="card-title">
+                    LEBRON JAMES 2003-04 Topps Chrome Refractor PSA 9 RC Rookie 111 bgs 03-04 LeBron
+
+                  </td>
+                  <td class="no-wrap">
+                    <span class="d-md-none">Date Sold:</span>
+                    Oct 11, 2020
+                  </td>
+                  <td>
+                    <span class="d-md-none">Sale Type:</span>
+                    Auction
+                  </td>
+                  <td class="item-price">
+                                          $17,050.00
+                                      </td>
+                </tr>
+                              
+                <tr>
+                  <td class="item-image">
+                                          <img class="img-fluid d-block mx-auto hover-scale" src="https://drg841dfpwbo9.cloudfront.net/2020/10/11/5a36298f399afbb9cc5261d6c6594ab7.jpg" alt="Image of: 2003 Topps Chrome Refractor #111 PSA 10 Gem Mint LeBron James Rookie Card RC" />
+                                      </td>
+                  <td class="card-title">
+                    2003 Topps Chrome Refractor #111 PSA 10 Gem Mint LeBron James Rookie Card RC
+
+                  </td>
+                  <td class="no-wrap">
+                    <span class="d-md-none">Date Sold:</span>
+                    Oct 11, 2020
+                  </td>
+                  <td>
+                    <span class="d-md-none">Sale Type:</span>
+                    Auction
+                  </td>
+                  <td class="item-price">
+                                          $52,100.00
+                                      </td>
+                </tr>
+                              
+                <tr>
+                  <td class="item-image">
+                                          <img class="img-fluid d-block mx-auto hover-scale" src="https://drg841dfpwbo9.cloudfront.net/2020/10/10/0e0df483d6336b2c225e10d0205ff1b3.jpg" alt="Image of: 2003 Topps Chrome Refractor LeBron James ROOKIE RC #111 PSA 9 MINT" />
+                                      </td>
+                  <td class="card-title">
+                    2003 Topps Chrome Refractor LeBron James ROOKIE RC #111 PSA 9 MINT
+
+                  </td>
+                  <td class="no-wrap">
+                    <span class="d-md-none">Date Sold:</span>
+                    Oct 10, 2020
+                  </td>
+                  <td>
+                    <span class="d-md-none">Sale Type:</span>
+                    Auction
+                  </td>
+                  <td class="item-price">
+                                          $19,100.00
+                                      </td>
+                </tr>
+                              
+                <tr>
+                  <td class="item-image">
+                                          <img class="img-fluid d-block mx-auto hover-scale" src="https://drg841dfpwbo9.cloudfront.net/2020/10/09/ae9a8286c489618211106d9bf614dc67.jpg" alt="Image of: LEBRON JAMES 2003-04 Topps Chrome Refractor PSA 9 RC Rookie 111 bgs 03-04 LeBron" />
+                                      </td>
+                  <td class="card-title">
+                    LEBRON JAMES 2003-04 Topps Chrome Refractor PSA 9 RC Rookie 111 bgs 03-04 LeBron
+
+                  </td>
+                  <td class="no-wrap">
+                    <span class="d-md-none">Date Sold:</span>
+                    Oct 9, 2020
+                  </td>
+                  <td>
+                    <span class="d-md-none">Sale Type:</span>
+                    Auction
+                  </td>
+                  <td class="item-price">
+                                          $17,600.00
+                                      </td>
+                </tr>
+                              
+                <tr>
+                  <td class="item-image">
+                                          <img class="img-fluid d-block mx-auto hover-scale" src="https://drg841dfpwbo9.cloudfront.net/2020/10/06/5bf4ce6b4eb0f5622aad850f0f7ec9bd.jpg" alt="Image of: 2003-04 Topps Chrome Refractor #111 LeBron James Cavaliers RC Rookie PSA 9 MINT" />
+                                      </td>
+                  <td class="card-title">
+                    2003-04 Topps Chrome Refractor #111 LeBron James Cavaliers RC Rookie PSA 9 MINT
+
+                  </td>
+                  <td class="no-wrap">
+                    <span class="d-md-none">Date Sold:</span>
+                    Oct 6, 2020
+                  </td>
+                  <td>
+                    <span class="d-md-none">Sale Type:</span>
+                    Auction
+                  </td>
+                  <td class="item-price">
+                                          $19,100.00
+                                      </td>
+                </tr>
+                              
+                <tr>
+                  <td class="item-image">
+                                          <img class="img-fluid d-block mx-auto hover-scale" src="https://drg841dfpwbo9.cloudfront.net/2020/10/01/ea233ee331b07f9dca3feaac9a68e873.jpg" alt="Image of: 2003-04 Topps Chrome Refractor #111 LeBron James Cavaliers RC Rookie PSA 8 NM-MT" />
+                                      </td>
+                  <td class="card-title">
+                    2003-04 Topps Chrome Refractor #111 LeBron James Cavaliers RC Rookie PSA 8 NM-MT
+
+                  </td>
+                  <td class="no-wrap">
+                    <span class="d-md-none">Date Sold:</span>
+                    Oct 1, 2020
+                  </td>
+                  <td>
+                    <span class="d-md-none">Sale Type:</span>
+                    Auction
+                  </td>
+                  <td class="item-price">
+                                          $10,000.00
+                                      </td>
+                </tr>
+                              
+                <tr>
+                  <td class="item-image">
+                                          <img class="img-fluid d-block mx-auto hover-scale" src="https://dw7591lwb84er.cloudfront.net/eyJpdiI6IjlQRnQrZEFOY2pwWGNEdCtxZGFvWlE9PSIsInZhbHVlIjoiV3VhQmlkb09OUnl5WmVBbEM3OElENkJQYWgzd1VqZE1LRDcwWGZwd2ZuRUxma2RVRVFuT1U2eG5KRUYraEQvNks0S2Q0U21PSmlMaXB3ODNNYWo4S2c9PSIsIm1hYyI6IjA5MGVjNDE3ODc5ZDNjOWQ0OGE2ZjVlNGRlMDJkOWIyNjg2YmUwNzgzZGMyYzM2YmQ0OTg0MTMxN2NjOWM1MzUifQ==" alt="Image of: 2003 Topps Chrome Refractor LeBron James ROOKIE RC #111 PSA 9 MINT" />
+                                      </td>
+                  <td class="card-title">
+                    2003 Topps Chrome Refractor LeBron James ROOKIE RC #111 PSA 9 MINT
+
+                  </td>
+                  <td class="no-wrap">
+                    <span class="d-md-none">Date Sold:</span>
+                    Sep 30, 2020
+                  </td>
+                  <td>
+                    <span class="d-md-none">Sale Type:</span>
+                    Auction
+                  </td>
+                  <td class="item-price">
+                                          $23,410.00
+                                      </td>
+                </tr>
+                                                                
+                <tr>
+                  <td class="item-image">
+                                          <img class="img-fluid d-block mx-auto hover-scale" src="https://drg841dfpwbo9.cloudfront.net/2020/09/13/16573f499342cb8d66bfde611570dc61.jpg" alt="Image of: 2003 Lebron James Topps #111 Chrome Refractor RC PSA 9 Rookie Card" />
+                                      </td>
+                  <td class="card-title">
+                    2003 Lebron James Topps #111 Chrome Refractor RC PSA 9 Rookie Card
+
+                  </td>
+                  <td class="no-wrap">
+                    <span class="d-md-none">Date Sold:</span>
+                    Sep 13, 2020
+                  </td>
+                  <td>
+                    <span class="d-md-none">Sale Type:</span>
+                    Auction
+                  </td>
+                  <td class="item-price">
+                                          $18,000.00
+                                      </td>
+                </tr>
+                              
+                <tr>
+                  <td class="item-image">
+                                          <img class="img-fluid d-block mx-auto hover-scale" src="https://drg841dfpwbo9.cloudfront.net/2020/09/13/9402447bd4e3cd9eb9fdb1c4b7b40921.jpg" alt="Image of: 2003-04 Topps Chrome Refractor LeBron James ROOKIE RC #111 BGS PSA Authentic HOT" />
+                                      </td>
+                  <td class="card-title">
+                    2003-04 Topps Chrome Refractor LeBron James ROOKIE RC #111 BGS PSA Authentic HOT
+
+                  </td>
+                  <td class="no-wrap">
+                    <span class="d-md-none">Date Sold:</span>
+                    Sep 13, 2020
+                  </td>
+                  <td>
+                    <span class="d-md-none">Sale Type:</span>
+                    Auction
+                  </td>
+                  <td class="item-price">
+                                          $10,000.00
+                                      </td>
+                </tr>
+                              
+                <tr>
+                  <td class="item-image">
+                                          <img class="img-fluid d-block mx-auto hover-scale" src="https://drg841dfpwbo9.cloudfront.net/2020/09/04/2c0af8bc418906c80973b92129a1fb7b.jpg" alt="Image of: 2003 Lebron James Topps #111 Chrome Refractor RC PSA 9 Rookie Card" />
+                                      </td>
+                  <td class="card-title">
+                    2003 Lebron James Topps #111 Chrome Refractor RC PSA 9 Rookie Card
+
+                  </td>
+                  <td class="no-wrap">
+                    <span class="d-md-none">Date Sold:</span>
+                    Sep 4, 2020
+                  </td>
+                  <td>
+                    <span class="d-md-none">Sale Type:</span>
+                    Auction
+                  </td>
+                  <td class="item-price">
+                                          $20,000.00
+                                      </td>
+                </tr>
+                              
+                <tr>
+                  <td class="item-image">
+                                          <img class="img-fluid d-block mx-auto hover-scale" src="https://drg841dfpwbo9.cloudfront.net/2020/08/29/8a711d52411514937e3c2b921affe4ee.jpg" alt="Image of: 2003-04 Topps Chrome Refractor LeBron James ROOKIE RC #111 BGS PSA Authentic HOT" />
+                                      </td>
+                  <td class="card-title">
+                    2003-04 Topps Chrome Refractor LeBron James ROOKIE RC #111 BGS PSA Authentic HOT
+
+                  </td>
+                  <td class="no-wrap">
+                    <span class="d-md-none">Date Sold:</span>
+                    Aug 29, 2020
+                  </td>
+                  <td>
+                    <span class="d-md-none">Sale Type:</span>
+                    Auction
+                  </td>
+                  <td class="item-price">
+                                          $10,050.00
+                                      </td>
+                </tr>
+                              
+                <tr>
+                  <td class="item-image">
+                                          <img class="img-fluid d-block mx-auto hover-scale" src="https://dw7591lwb84er.cloudfront.net/eyJpdiI6IkNBMVJ5R2dDS3ZGZDM5aUxINUhYOXc9PSIsInZhbHVlIjoiQ3MvWUtQM0dIZ0hXZDgwR1plbGtaT0NvblVUeWdnWEhzY0pjL1NDQkt4RDFUbTZ6ZFVDRzE0b2xhV2hBN3l3V0RnM1RMempOdy9LYUF6NXVubmxXc1E9PSIsIm1hYyI6ImJiYzI5OTUyNTA4YjExNDMyYzllZWY1YzU3ZDEwM2YyNTg4ZWM0YjRlYWZmMTljYjRmODM5MDEwMmRmODMwNmEifQ==" alt="Image of: 2003 Topps Chrome Black Refractor LeBron James ROOKIE RC /500 #111 PSA 10 GEM MT" />
+                                      </td>
+                  <td class="card-title">
+                    2003 Topps Chrome Black Refractor LeBron James ROOKIE RC /500 #111 PSA 10 GEM MT
+
+                  </td>
+                  <td class="no-wrap">
+                    <span class="d-md-none">Date Sold:</span>
+                    Aug 24, 2020
+                  </td>
+                  <td>
+                    <span class="d-md-none">Sale Type:</span>
+                    Auction
+                  </td>
+                  <td class="item-price">
+                                          $145,300.00
+                                      </td>
+                </tr>
+                              
+                <tr>
+                  <td class="item-image">
+                                          <img class="img-fluid d-block mx-auto hover-scale" src="https://drg841dfpwbo9.cloudfront.net/2020/08/22/010444b1def7001e78897a55a4bd69db.jpg" alt="Image of: 2003-04 LeBron James #221 Topps ROOKIE RC BGS 9! 9.5 non psa chrome refractor" />
+                                      </td>
+                  <td class="card-title">
+                    2003-04 LeBron James #221 Topps ROOKIE RC BGS 9! 9.5 non psa chrome refractor
+
+                  </td>
+                  <td class="no-wrap">
+                    <span class="d-md-none">Date Sold:</span>
+                    Aug 22, 2020
+                  </td>
+                  <td>
+                    <span class="d-md-none">Sale Type:</span>
+                    Auction
+                  </td>
+                  <td class="item-price">
+                                          $1,580.00
+                                      </td>
+                </tr>
+                              
+                <tr>
+                  <td class="item-image">
+                                          <img class="img-fluid d-block mx-auto hover-scale" src="https://drg841dfpwbo9.cloudfront.net/2020/08/14/7c448d724fb6476c042ecf23ed570ab1.jpg" alt="Image of: 2003-04 LeBron James Topps Chrome Pristine RC ROOKIE BGS 9.5! non psa refractor" />
+                                      </td>
+                  <td class="card-title">
+                    2003-04 LeBron James Topps Chrome Pristine RC ROOKIE BGS 9.5! non psa refractor
+
+                  </td>
+                  <td class="no-wrap">
+                    <span class="d-md-none">Date Sold:</span>
+                    Aug 14, 2020
+                  </td>
+                  <td>
+                    <span class="d-md-none">Sale Type:</span>
+                    Auction
+                  </td>
+                  <td class="item-price">
+                                          $1,352.87
+                                      </td>
+                </tr>
+                              
+                <tr>
+                  <td class="item-image">
+                                          <img class="img-fluid d-block mx-auto hover-scale" src="https://drg841dfpwbo9.cloudfront.net/2020/08/05/8d9f3e713631049fff52eab3a9855f1d.jpg" alt="Image of: 2003 Topps Chrome Refractor #111 Lebron James RC Rookie PSA 10 GEM MINT Flawless" />
+                                      </td>
+                  <td class="card-title">
+                    2003 Topps Chrome Refractor #111 Lebron James RC Rookie PSA 10 GEM MINT Flawless
+
+                  </td>
+                  <td class="no-wrap">
+                    <span class="d-md-none">Date Sold:</span>
+                    Aug 5, 2020
+                  </td>
+                  <td>
+                    <span class="d-md-none">Sale Type:</span>
+                    Auction
+                  </td>
+                  <td class="item-price">
+                                          $70,700.00
+                                      </td>
+                </tr>
+                              
+                <tr>
+                  <td class="item-image">
+                                          <img class="img-fluid d-block mx-auto hover-scale" src="https://drg841dfpwbo9.cloudfront.net/2020/07/26/0a54dc2ed49c3c30c9d5977ca0bc0d9a.jpg" alt="Image of: 2003 Topps Chrome #111 Lebron James RC Refractor Rookie PSA 8.5 NM-MT 47912363" />
+                                      </td>
+                  <td class="card-title">
+                    2003 Topps Chrome #111 Lebron James RC Refractor Rookie PSA 8.5 NM-MT 47912363
+
+                  </td>
+                  <td class="no-wrap">
+                    <span class="d-md-none">Date Sold:</span>
+                    Jul 26, 2020
+                  </td>
+                  <td>
+                    <span class="d-md-none">Sale Type:</span>
+                    Auction
+                  </td>
+                  <td class="item-price">
+                                          $18,319.00
+                                      </td>
+                </tr>
+                              
+                <tr>
+                  <td class="item-image">
+                                          <img class="img-fluid d-block mx-auto hover-scale" src="https://drg841dfpwbo9.cloudfront.net/2020/07/16/8be95a2098aea42e4864fad25295330c.jpg" alt="Image of: 2003 Topps Chrome Refractor LeBron James ROOKIE RC #111 PSA 9 MINT INVEST PMJS" />
+                                      </td>
+                  <td class="card-title">
+                    2003 Topps Chrome Refractor LeBron James ROOKIE RC #111 PSA 9 MINT INVEST PMJS
+
+                  </td>
+                  <td class="no-wrap">
+                    <span class="d-md-none">Date Sold:</span>
+                    Jul 16, 2020
+                  </td>
+                  <td>
+                    <span class="d-md-none">Sale Type:</span>
+                    Auction
+                  </td>
+                  <td class="item-price">
+                                          $22,557.00
+                                      </td>
+                </tr>
+                              
+                <tr>
+                  <td class="item-image">
+                                          <img class="img-fluid d-block mx-auto hover-scale" src="https://drg841dfpwbo9.cloudfront.net/2020/07/14/99c02ba96e94cab76736d49477f3c194.jpg" alt="Image of: 2003-04 Topps Chrome Refractor #111 Lebron James RC Rookie PSA 8 NM-MT " />
+                                      </td>
+                  <td class="card-title">
+                    2003-04 Topps Chrome Refractor #111 Lebron James RC Rookie PSA 8 NM-MT 
+
+                  </td>
+                  <td class="no-wrap">
+                    <span class="d-md-none">Date Sold:</span>
+                    Jul 14, 2020
+                  </td>
+                  <td>
+                    <span class="d-md-none">Sale Type:</span>
+                    Auction
+                  </td>
+                  <td class="item-price">
+                                          $12,877.77
+                                      </td>
+                </tr>
+                              
+                <tr>
+                  <td class="item-image">
+                                          <img class="img-fluid d-block mx-auto hover-scale" src="https://dw7591lwb84er.cloudfront.net/eyJpdiI6IkFxbmVlUFlKOE16ZG9NcktoOFVoQ2c9PSIsInZhbHVlIjoiV3cvaUozQlRKdUYybm9JaSt2bGdjYjJEamRLTklvNlNscHVvT2U2QmhmUHpVVlBaVDMveThiL2ZQMXJpSFY1Q3UwODNNQ2dzZjVDMWdGeXNqWHBnNmc9PSIsIm1hYyI6IjY1YzE3MmU0ZDVmNGQxNjM5MjJkY2IxZjY3NWIxZjQxYjM0NTMyMjg0NTZjZTJjZmUzZTczYjY2OGM1Yzk4MTYifQ==" alt="Image of: 2003 Topps Chrome Refractor LeBron James ROOKIE RC #111 PSA 8 NM-MT (PWCC)" />
+                                      </td>
+                  <td class="card-title">
+                    2003 Topps Chrome Refractor LeBron James ROOKIE RC #111 PSA 8 NM-MT (PWCC)
+
+                  </td>
+                  <td class="no-wrap">
+                    <span class="d-md-none">Date Sold:</span>
+                    Jun 22, 2020
+                  </td>
+                  <td>
+                    <span class="d-md-none">Sale Type:</span>
+                    Auction
+                  </td>
+                  <td class="item-price">
+                                          $8,777.00
+                                      </td>
+                </tr>
+                              
+                <tr>
+                  <td class="item-image">
+                                          <img class="img-fluid d-block mx-auto hover-scale" src="https://drg841dfpwbo9.cloudfront.net/2020/06/20/a59b5afc96dedf3666a7436d0f42fcef.jpg" alt="Image of: LEBRON JAMES 2003-04 TOPPS CHROME REFRACTOR RC ROOKIE #111 PSA MINT 9" />
+                                      </td>
+                  <td class="card-title">
+                    LEBRON JAMES 2003-04 TOPPS CHROME REFRACTOR RC ROOKIE #111 PSA MINT 9
+
+                  </td>
+                  <td class="no-wrap">
+                    <span class="d-md-none">Date Sold:</span>
+                    Jun 20, 2020
+                  </td>
+                  <td>
+                    <span class="d-md-none">Sale Type:</span>
+                    Auction
+                  </td>
+                  <td class="item-price">
+                                          $13,769.69
+                                      </td>
+                </tr>
+                              
+                <tr>
+                  <td class="item-image">
+                                          <img class="img-fluid d-block mx-auto hover-scale" src="https://dw7591lwb84er.cloudfront.net/eyJpdiI6Ik0wazc4d25pSGoxWDV1NkRIZkhTdFE9PSIsInZhbHVlIjoiRXRxRmxncXdlNlMzd2tWSlVEMDZHQTRRRFM2RjFXQzYycmNuZmMvMFE1T1RETFpXNnFNTmdmSmJvMTJvK2d1aS9lM1hhcDNwdDRjWUxHMWY2clZtVVE9PSIsIm1hYyI6IjVkMzdmZGUxMTIyOTM0YjIyY2Y3NmMxN2VmMjJjZDExNzU0NmRmNWMzZjVjNjAyZjQ2MzQ0NTI3Njc3NjMxYzYifQ==" alt="Image of: 2003 Topps Chrome Refractor LeBron James ROOKIE RC #111 PSA 9 MINT (PWCC)" />
+                                      </td>
+                  <td class="card-title">
+                    2003 Topps Chrome Refractor LeBron James ROOKIE RC #111 PSA 9 MINT (PWCC)
+
+                  </td>
+                  <td class="no-wrap">
+                    <span class="d-md-none">Date Sold:</span>
+                    May 31, 2020
+                  </td>
+                  <td>
+                    <span class="d-md-none">Sale Type:</span>
+                    Auction
+                  </td>
+                  <td class="item-price">
+                                          $13,623.23
+                                      </td>
+                </tr>
+                              
+                <tr>
+                  <td class="item-image">
+                                          <img class="img-fluid d-block mx-auto hover-scale" src="https://drg841dfpwbo9.cloudfront.net/2020/05/24/1c01ed9f940effb15bf50cb223464328.jpg" alt="Image of:  2003-04 TOPPS CHROME #111 LeBRON JAMES RC BGS 3.0 (psa JSC non refractor) " />
+                                      </td>
+                  <td class="card-title">
+                     2003-04 TOPPS CHROME #111 LeBRON JAMES RC BGS 3.0 (psa JSC non refractor) 
+
+                  </td>
+                  <td class="no-wrap">
+                    <span class="d-md-none">Date Sold:</span>
+                    May 24, 2020
+                  </td>
+                  <td>
+                    <span class="d-md-none">Sale Type:</span>
+                    Auction
+                  </td>
+                  <td class="item-price">
+                                          $771.00
+                                      </td>
+                </tr>
+                              
+                <tr>
+                  <td class="item-image">
+                                          <img class="img-fluid d-block mx-auto hover-scale" src="https://drg841dfpwbo9.cloudfront.net/2020/05/04/4a140477d1b6059e08cf1db4104ecce7.jpg" alt="Image of: 2003-04 Topps Chrome Refractor #111 Lebron James RC Rookie PSA 9 MINT" />
+                                      </td>
+                  <td class="card-title">
+                    2003-04 Topps Chrome Refractor #111 Lebron James RC Rookie PSA 9 MINT
+
+                  </td>
+                  <td class="no-wrap">
+                    <span class="d-md-none">Date Sold:</span>
+                    May 4, 2020
+                  </td>
+                  <td>
+                    <span class="d-md-none">Sale Type:</span>
+                    Auction
+                  </td>
+                  <td class="item-price">
+                                          $9,750.00
+                                      </td>
+                </tr>
+                              
+                <tr>
+                  <td class="item-image">
+                                          <img class="img-fluid d-block mx-auto hover-scale" src="https://drg841dfpwbo9.cloudfront.net/2020/04/06/14970f1747a1d9a30b497e20a4bfb918.jpg" alt="Image of: 2003 Topps Chrome Refractor #111 Lebron James RC Rookie PSA 10 GEM MINT" />
+                                      </td>
+                  <td class="card-title">
+                    2003 Topps Chrome Refractor #111 Lebron James RC Rookie PSA 10 GEM MINT
+
+                  </td>
+                  <td class="no-wrap">
+                    <span class="d-md-none">Date Sold:</span>
+                    Apr 6, 2020
+                  </td>
+                  <td>
+                    <span class="d-md-none">Sale Type:</span>
+                    Auction
+                  </td>
+                  <td class="item-price">
+                                          $17,600.00
+                                      </td>
+                </tr>
+                              
+                <tr>
+                  <td class="item-image">
+                                          <img class="img-fluid d-block mx-auto hover-scale" src="https://drg841dfpwbo9.cloudfront.net/2020/03/11/730f3d00c640334f837d5037d74c400a.jpg" alt="Image of: 2003-04 Topps Chrome Refractor #111 LeBron James Cavaliers RC Rookie PSA 9 MINT" />
+                                      </td>
+                  <td class="card-title">
+                    2003-04 Topps Chrome Refractor #111 LeBron James Cavaliers RC Rookie PSA 9 MINT
+
+                  </td>
+                  <td class="no-wrap">
+                    <span class="d-md-none">Date Sold:</span>
+                    Mar 11, 2020
+                  </td>
+                  <td>
+                    <span class="d-md-none">Sale Type:</span>
+                    Auction
+                  </td>
+                  <td class="item-price">
+                                          $10,677.00
+                                      </td>
+                </tr>
+                              
+                <tr>
+                  <td class="item-image">
+                                          <img class="img-fluid d-block mx-auto hover-scale" src="https://drg841dfpwbo9.cloudfront.net/2020/02/16/850713e905bdefbfdc7f67ba399a7eed.jpg" alt="Image of: 2003-04 Topps Chrome Refractor #111 LeBron James Cavaliers RC Rookie PSA 10 RARE" />
+                                      </td>
+                  <td class="card-title">
+                    2003-04 Topps Chrome Refractor #111 LeBron James Cavaliers RC Rookie PSA 10 RARE
+
+                  </td>
+                  <td class="no-wrap">
+                    <span class="d-md-none">Date Sold:</span>
+                    Feb 16, 2020
+                  </td>
+                  <td>
+                    <span class="d-md-none">Sale Type:</span>
+                    Auction
+                  </td>
+                  <td class="item-price">
+                                          $17,655.55
+                                      </td>
+                </tr>
+                          </table>
+          </div>
+
+          <div class="form-group">
+    <ul class="pagination">
+      
+              <li class="page-item disabled">
+          <span class="page-link">&laquo;</span>
+        </li>
+        <li class="page-item active">
+          <span class="page-link">1</span>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="https://www.pwccmarketplace.com/market-price-research?items_per_page=50&amp;price_max=10000&amp;price_min=50&amp;q=2003%20lebron%20rc%20%20topps%20chrome%20refractor%20psa&amp;sale_type=auction&amp;sort_by=date_desc&amp;year_max=2021&amp;year_min=2004&amp;page=2">2</a>
+        </li>
+      
+      
+      
+              <li class="page-item disabled hidden-xs">
+          <span class="page-link">...</span>
+        </li>
+      
+      
+      
+              <li class="page-item">
+          <a class="page-link" href="https://www.pwccmarketplace.com/market-price-research?items_per_page=50&amp;price_max=10000&amp;price_min=50&amp;q=2003%20lebron%20rc%20%20topps%20chrome%20refractor%20psa&amp;sale_type=auction&amp;sort_by=date_desc&amp;year_max=2021&amp;year_min=2004&amp;page=2" rel="next">&raquo;</a>
+        </li>
+          </ul>
+  </div>
+
+  
+  
+
+        
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+                
+                              <div class="row context-primary tertiary in-columns">
+  <div class="container">
+    <div class="row overflow">
+      <div class="col-sm-12 col-md-6">
+        <div class="equal-height top">
+          <div class="inner">
+            <h3 class="text-transform-none">Become a Member</h3>
+            <p>Create an account to receive your custom Vault mailing address, join our mailing list, sell on our Marketplaces, and gain full access to our suite of investor tools – including the <a href="https://www.pwccmarketplace.com/market-indices">PWCC Indices</a>, <a href="https://www.pwccmarketplace.com/market-price-research">Market Price Research tool</a>, and <a href="https://www.pwccmarketplace.com/sales-history">Auction History sales database</a>.</p>
+          </div>
+        </div>
+        <div class="equal-height bottom">
+          <a href="https://www.pwccmarketplace.com/join" class="btn btn-lg btn-black">Sign Up Now</a>
+        </div>
+
+      </div>
+      <div class="col-sm-12 col-md-6">
+        <div class="sell-your-collection">
+  <div class="equal-height top">
+    <div class="inner">
+      <h3 class="text-transform-none">Submit to Auction</h3>
+      <p class="mb-4">
+        PWCC manages the largest trading card auction venue in the world, comprising 12 annual auction events that run every month of the year, and we are always accepting submissions. We reach the most bidders, average the highest prices, have the lowest fee schedule, and fully manage your listing, fulfillment, service, and billing.
+      </p>
+    </div>
+  </div>
+  <div class="equal-height bottom">
+    <div class="inner">
+      <div>
+        <a
+          href="https://members.pwccmarketplace.com/marketplace/submissions/create"
+          onclick="sendEvent('home')"
+          class="btn btn-lg btn-black"
+          target="_blank"
+        >
+          <i class="fa fa-plus-square pr-1"></i>
+          Create Submission
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+              <div class="footer-wrapper">
+          <div class="container px-0">
+            <div class="row footer mx-auto">
+              <div class="col">
+  <div class="row footer-brand d-flex flex-column align-items-center justify-content-center mb-4">
+    <a href="https://www.pwccmarketplace.com" aria-label="Link to PWCC Homepage">
+      <img src="https://s3-us-west-2.amazonaws.com/pwccauctions/website/logo-yellow.png" alt="PWCC" />
+    </a>
+    <div class="mt-4">
+      <span class="footer-evolve">EVOLVE THE WAY YOU COLLECT.</span>
+    </div>
+  </div>
+
+  <hr class='my-0'>
+
+  <div class="d-sm-none">
+    <div class="row my-5">
+      <div class="col-12 mb-4 text-center ">
+      <h3 data-toggle="collapse" data-target="#premier_auction" class="collapsed">
+                  <b>
+            Premier Auction
+          </b>
+          <i class="collapse-chevron fa fa-chevron-up"></i>
+              </h3>
+
+              <ul class="list-unstyled mb-2 collapse" id="premier_auction">
+                      <li class="mb-1">
+              <a href="https://www.pwccmarketplace.com/premier-auction">Premier Auction</a>
+            </li>
+                                          <li class="mb-1">
+                  <a href="https://www.pwccmarketplace.com/about-premier-auction">About Premier Auction</a>
+                </li>
+                              <li class="mb-1">
+                  <a href="https://www.pwccmarketplace.com/premier-auction-application">Register to Bid</a>
+                </li>
+                              <li class="mb-1">
+                  <a href="https://www.pwccmarketplace.com/faq">Premier Auction FAQs</a>
+                </li>
+                                            </ul>
+          </div>
+      <div class="col-12 mb-4 text-center ">
+      <h3 data-toggle="collapse" data-target="#submit" class="collapsed">
+                  <b>
+            Submit
+          </b>
+          <i class="collapse-chevron fa fa-chevron-up"></i>
+              </h3>
+
+              <ul class="list-unstyled mb-2 collapse" id="submit">
+                      <li class="mb-1">
+              <a href="https://www.pwccmarketplace.com/submit-to-auction">Auction</a>
+            </li>
+                                  <li class="mb-1">
+              <a href="https://www.pwccmarketplace.com/submit-to-vault">Vault</a>
+            </li>
+                              </ul>
+          </div>
+      <div class="col-12 mb-4 text-center ">
+      <h3 data-toggle="collapse" data-target="#marketplaces" class="collapsed">
+                  <b>
+            Marketplaces
+          </b>
+          <i class="collapse-chevron fa fa-chevron-up"></i>
+              </h3>
+
+              <ul class="list-unstyled mb-2 collapse" id="marketplaces">
+                      <li class="mb-1">
+              <a href="https://www.pwccmarketplace.com/current-auction">Auction Marketplace</a>
+            </li>
+                                  <li class="mb-1">
+              <a href="https://www.pwccmarketplace.com/vault-marketplace">Vault Marketplace</a>
+            </li>
+                              </ul>
+          </div>
+      <div class="col-12 mb-4 text-center ">
+      <h3 data-toggle="collapse" data-target="#vault" class="collapsed">
+                  <b>
+            Vault
+          </b>
+          <i class="collapse-chevron fa fa-chevron-up"></i>
+              </h3>
+
+              <ul class="list-unstyled mb-2 collapse" id="vault">
+                      <li class="mb-1">
+              <a href="https://www.pwccmarketplace.com/vault">About</a>
+            </li>
+                                  <li class="mb-1">
+              <a href="https://www.pwccmarketplace.com/vault-demo">Demo</a>
+            </li>
+                                  <li class="mb-1">
+              <a href="https://www.pwccmarketplace.com/vault-pricing">Pricing</a>
+            </li>
+                                  <li class="mb-1">
+              <a href="https://www.pwccmarketplace.com/submit-to-vault">Get Started</a>
+            </li>
+                              </ul>
+          </div>
+      <div class="col-12 mb-4 text-center ">
+      <h3 data-toggle="collapse" data-target="#research" class="collapsed">
+                  <b>
+            Research
+          </b>
+          <i class="collapse-chevron fa fa-chevron-up"></i>
+              </h3>
+
+              <ul class="list-unstyled mb-2 collapse" id="research">
+                      <li class="mb-1">
+              <a href="https://www.pwccmarketplace.com/market-price-research">Market Price Research</a>
+            </li>
+                                  <li class="mb-1">
+              <a href="https://www.pwccmarketplace.com/sales-history">PWCC Auction Archive</a>
+            </li>
+                                  <li class="mb-1">
+              <a href="https://www.pwccmarketplace.com/market-indices">Market Indices</a>
+            </li>
+                                  <li class="mb-1">
+              <a href="https://www.pwccmarketplace.com/eye-appeal">Eye Appeal Matters</a>
+            </li>
+                              </ul>
+          </div>
+      <div class="col-12 mb-4 text-center ">
+      <h3 data-toggle="collapse" data-target="#about" class="collapsed">
+                  <b>
+            About
+          </b>
+          <i class="collapse-chevron fa fa-chevron-up"></i>
+              </h3>
+
+              <ul class="list-unstyled mb-2 collapse" id="about">
+                      <li class="mb-1">
+              <a href="https://www.pwccmarketplace.com/about-the-marketplace">About the Marketplace</a>
+            </li>
+                                  <li class="mb-1">
+              <a href="https://www.pwccmarketplace.com/marketplace-tenets">Marketplace Tenets</a>
+            </li>
+                                  <li class="mb-1">
+              <a href="https://www.pwccmarketplace.com/pwcc-for-buyers">PWCC for Buyers</a>
+            </li>
+                                  <li class="mb-1">
+              <a href="https://www.pwccmarketplace.com/why-sell-with-us">PWCC for Sellers</a>
+            </li>
+                                  <li class="mb-1">
+              <a href="https://www.pwccmarketplace.com/capital">Capital</a>
+            </li>
+                                  <li class="mb-1">
+              <a href="https://www.pwccmarketplace.com/contact-us">Contact Us</a>
+            </li>
+                                  <li class="mb-1">
+              <a href="https://www.pwccmarketplace.com/faq">FAQ</a>
+            </li>
+                                  <li class="mb-1">
+              <a href="https://www.pwccmarketplace.com/careers">Careers</a>
+            </li>
+                              </ul>
+          </div>
+  </div>
+  </div>
+  <div class="d-none d-sm-block">
+    <div class="row mt-4">
+      <div class="col-12 col-sm-4 mb-4 text-center ">
+      
+              <ul class="list-unstyled mb-2">
+                                    <li>
+                <h3 class="sub">
+                  <b>
+                    <a href="https://www.pwccmarketplace.com/premier-auction">Premier Auction</a>
+                  </b>
+                </h3>
+              </li>
+
+                              <li class="mb-1">
+                  <a href="https://www.pwccmarketplace.com/about-premier-auction">About Premier Auction</a>
+                </li>
+                              <li class="mb-1">
+                  <a href="https://www.pwccmarketplace.com/premier-auction-application">Register to Bid</a>
+                </li>
+                              <li class="mb-1">
+                  <a href="https://www.pwccmarketplace.com/faq">Premier Auction FAQs</a>
+                </li>
+                                            </ul>
+          </div>
+      <div class="col-12 col-sm-4 mb-4 text-center ">
+              <h3>
+          <a href="https://www.pwccmarketplace.com/submit-to-auction">
+            <b>
+              Submit
+            </b>
+          </a>
+        </h3>
+      
+              <ul class="list-unstyled mb-2">
+                                    <li class="mb-1">
+                               <a href="https://www.pwccmarketplace.com/submit-to-auction">Auction</a>
+                            </li>
+                                                <li class="mb-1">
+                               <a href="https://www.pwccmarketplace.com/submit-to-vault">Vault</a>
+                            </li>
+                              </ul>
+          </div>
+      <div class="col-12 col-sm-4 mb-4 text-center ">
+              <h3>
+          <a href="https://www.pwccmarketplace.com/current-auction">
+            <b>
+              Marketplaces
+            </b>
+          </a>
+        </h3>
+      
+              <ul class="list-unstyled mb-2">
+                                    <li class="mb-1">
+                               <a href="https://www.pwccmarketplace.com/current-auction">Auction Marketplace</a>
+                            </li>
+                                                <li class="mb-1">
+                               <a href="https://www.pwccmarketplace.com/vault-marketplace">Vault Marketplace</a>
+                            </li>
+                              </ul>
+          </div>
+      <div class="col-12 col-sm-4 mb-4 text-center ">
+              <h3>
+          <a href="https://www.pwccmarketplace.com/vault">
+            <b>
+              Vault
+            </b>
+          </a>
+        </h3>
+      
+              <ul class="list-unstyled mb-2">
+                                    <li class="mb-1">
+                               <a href="https://www.pwccmarketplace.com/vault">About</a>
+                            </li>
+                                                <li class="mb-1">
+                               <a href="https://www.pwccmarketplace.com/vault-demo">Demo</a>
+                            </li>
+                                                <li class="mb-1">
+                               <a href="https://www.pwccmarketplace.com/vault-pricing">Pricing</a>
+                            </li>
+                                                <li class="mb-1">
+                               <a href="https://www.pwccmarketplace.com/submit-to-vault">Get Started</a>
+                            </li>
+                              </ul>
+          </div>
+      <div class="col-12 col-sm-4 mb-4 text-center ">
+              <h3>
+          <a href="https://www.pwccmarketplace.com/market-price-research">
+            <b>
+              Research
+            </b>
+          </a>
+        </h3>
+      
+              <ul class="list-unstyled mb-2">
+                                    <li class="mb-1">
+                               <a href="https://www.pwccmarketplace.com/market-price-research">Market Price Research</a>
+                            </li>
+                                                <li class="mb-1">
+                               <a href="https://www.pwccmarketplace.com/sales-history">PWCC Auction Archive</a>
+                            </li>
+                                                <li class="mb-1">
+                               <a href="https://www.pwccmarketplace.com/market-indices">Market Indices</a>
+                            </li>
+                                                <li class="mb-1">
+                               <a href="https://www.pwccmarketplace.com/eye-appeal">Eye Appeal Matters</a>
+                            </li>
+                              </ul>
+          </div>
+      <div class="col-12 col-sm-4 mb-4 text-center ">
+              <h3>
+          <a href="https://www.pwccmarketplace.com/about-the-marketplace">
+            <b>
+              About
+            </b>
+          </a>
+        </h3>
+      
+              <ul class="list-unstyled mb-2">
+                                    <li class="mb-1">
+                               <a href="https://www.pwccmarketplace.com/about-the-marketplace">About the Marketplace</a>
+                            </li>
+                                                <li class="mb-1">
+                               <a href="https://www.pwccmarketplace.com/marketplace-tenets">Marketplace Tenets</a>
+                            </li>
+                                                <li class="mb-1">
+                               <a href="https://www.pwccmarketplace.com/pwcc-for-buyers">PWCC for Buyers</a>
+                            </li>
+                                                <li class="mb-1">
+                               <a href="https://www.pwccmarketplace.com/why-sell-with-us">PWCC for Sellers</a>
+                            </li>
+                                                <li class="mb-1">
+                               <a href="https://www.pwccmarketplace.com/capital">Capital</a>
+                            </li>
+                                                <li class="mb-1">
+                               <a href="https://www.pwccmarketplace.com/contact-us">Contact Us</a>
+                            </li>
+                                                <li class="mb-1">
+                               <a href="https://www.pwccmarketplace.com/faq">FAQ</a>
+                            </li>
+                                                <li class="mb-1">
+                              <a class="btn btn-primary text-dark" href="https://www.pwccmarketplace.com/careers">Careers</a>
+                            </li>
+                              </ul>
+          </div>
+  </div>
+  </div>
+
+
+  <div class="row d-flex justify-content-center mb-4">
+    <div class="footer-social text-center">
+      <a href="https://www.facebook.com/PWCCmarketplace/" target="_blank" aria-label="Facebook"><i class="fa fa-facebook"></i></a>
+      <a href="https://www.instagram.com/pwccmarketplace/" target="_blank" aria-label="Instagram"><i class="fa fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/company/pwcc-marketplace-llc/" target="_blank" aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a>
+      <a href="https://www.youtube.com/channel/UCt8oCb57Xf__dXd4xK8GexQ" target="_blank" aria-label="YouTube"><i class="fa fa-youtube"></i></a>
+      <a href="https://twitter.com/PWCCmarketplace" target="_blank" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
+    </div>
+  </div>
+
+  <hr class='my-0'>
+
+  <div class="row closing mt-4">
+    <div class="col p-0">
+      <ul class="list-inline d-flex justify-content-center justify-content-sm-between">
+        <li class="d-sm-inline-block mt-1 mt-sm-0"><a href="https://www.pwccmarketplace.com/privacy">Privacy Policy</a></li>
+        <li class="d-sm-inline-block mt-1 mt-sm-0"><a href="https://www.pwccmarketplace.com/tos">Terms of Use</a></li>
+        <li class="d-sm-inline-block mt-1 mt-sm-0"><a href="https://www.pwccmarketplace.com/cookies">Cookie Policy</a></li>
+        <li class="d-sm-inline-block mt-3 mt-sm-0"><a href="https://www.pwccmarketplace.com/returns">Return Policy</a></li>
+        <li class="d-sm-inline-block copyright mt-3 mt-sm-0">&copy; Copyright PWCC 2021</li>
+      </ul>
+    </div>
+  </div>
+</div>
+            </div>
+          </div>
+        </div>
+      
+      <div
+        id="scrollToTop"
+        class="tippy"
+        data-tippy-placement="top-start"
+        data-tippy-size="small"
+        title="Scroll to Top"
+      >
+        <i class="fa fa-chevron-up"></i>
+      </div>
+
+          </footer>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://www.pwccmarketplace.com/js/manifest.js?id=7db827d654313dce4250"></script>
+  <script src="https://www.pwccmarketplace.com/js/vendor.js?id=3cc52c08e33cac9f3697"></script>
+  <script src="https://www.pwccmarketplace.com/js/app.js?id=dd0b886ae944d41f1c2b"></script>
+
+  
+    <script src="https://www.pwccmarketplace.com/js/www.js?id=f04ad89d4b82b27a0121"></script>
+
+      <script src="https://www.pwccmarketplace.com/js/www/market-price-research.js?id=f0c65251c7f1ee30956b"></script>
+  
+  
+  <script>
+    function initFreshChat() {
+      window.fcWidget.init({
+        token: "",
+        host: "",
+                  externalId: "",
+          firstName: "",
+          lastName: "",
+          email: "",
+                open: true
+      });
+
+      window.fcWidget.on("widget:loaded", function(resp) {
+        document.getElementsByClassName('freshchat-fake')[0].style.display = 'none';
+      });
+    }
+
+    function loadFreshChatScript(i,t){
+      var e;
+      i.getElementById(t) ? initFreshChat() : ((e=i.createElement("script")).id=t,e.async=!0,e.src="https://wchat.freshchat.com/js/widget.js",e.onload=initFreshChat,i.head.appendChild(e))
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+
+        document.getElementsByClassName('freshchat-fake')[0].addEventListener('click', function(e) {
+          e.preventDefault();
+
+          this.getElementsByClassName('fa-comments-o')[0].className = 'fa fa-spinner fa-2x';
+          loadFreshChatScript(document,"freshchat-js-sdk");
+        });
+
+    });
+
+  </script>
+  <a
+    class="freshchat-fake bg-warning text-white text-center tippy"
+    title="Click to open chat with PWCC staff"
+  >
+    <i class="fa fa-comments-o fa-2x"></i>
+  </a>
+
+</body>
+</html>
