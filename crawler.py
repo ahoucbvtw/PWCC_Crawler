@@ -169,10 +169,10 @@ if __name__ == '__main__':
 				time.sleep(5)
 
 			dataframe = pd.DataFrame({'PictureLink': picture_link,
-									'SALE_ITEM': name,
-									'SALE_DATE': date,
-									'SALE_TYPE': sale,
-									'SOLD_PRICE': price})
+						'SALE_ITEM': name,
+						'SALE_DATE': date,
+						'SALE_TYPE': sale,
+						'SOLD_PRICE': price})
 
 			# 儲存原始數據
 			dataframe.to_csv("crawlerdata.csv", index = False)
