@@ -22,7 +22,7 @@ Second, go down the headers can see the「Form Data」column. The column of data
 
 As we can see, **「_token」** is a random word. Thus, before login, I turn to **「Element」** page to find where is the _token is it and write down the code.
 
-![alt text](https://raw.githubusercontent.com/ahoucbvtw/PWCC_Crawler/main/Picture/04.jpg "The _token random word")
+![alt text](https://raw.githubusercontent.com/ahoucbvtw/PWCC_Crawler/main/Picture/08.jpg "The _token random word")
 
 **To catch 「_token」  code：**
 
