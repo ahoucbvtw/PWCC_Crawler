@@ -12,13 +12,13 @@ The Sold price is a difficult point for crawler in PWCC. The reason is, if want 
 
 Before we login, we must to know what kind of data we should to post in login process.
 
-First, go to login page, press **```Ctrl+Shift+I```** to show the site of source code and go to「Network」page. Next, type casually to log in(Login failed is no problem), then find the request method is **「POST」** login headers in 「Network」page.
+First, go to login page, press **```Ctrl+Shift+I```** to show the site of source code and go to 「Network」 page. Next, type casually to log in(Login failed is no problem), then find the request method is **「POST」** login headers in 「Network」 page.
 
 *ps. **```Ctrl+Shift+I```** is useful in **Chrome** to open source code page. Please find how to open source code page in your browser.*
 
 ![alt text](https://raw.githubusercontent.com/ahoucbvtw/PWCC_Crawler/main/Picture/02.jpg "Request method POST of login page")
 
-Second, go down the headers can see the「Form Data」column. The column of data is we should post in login process.
+Second, go down the headers can see the 「Form Data」 column. The column of data is we should post in login process.
 
 ![alt text](https://raw.githubusercontent.com/ahoucbvtw/PWCC_Crawler/main/Picture/03.jpg "Necessary of log in data")
 
