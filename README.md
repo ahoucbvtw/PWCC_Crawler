@@ -3,7 +3,7 @@ This is a web crawler for PWCC, which is the leader in the trading card investme
 
 Today my target is this card：[2003 lebron rc topps chrome refractor psa](https://reurl.cc/XWeqQg).
 
-My mission is to grab all the information in this site data like picture link, sold card name, sold price etc all we can saw the useful information. Than, sort out this data to the total price of year run chart.
+My mission is to grab all the information in this site data like picture link, sold card name, sold price etc all we can saw the useful information. Than, sort out this data to the total price of year's run chart.
 
 ## Ordeal
 The Sold price is a difficult point for crawler in PWCC. The reason is if want to see the sold price data, it must be logged in.
@@ -23,6 +23,8 @@ Second, go down the headers can see the「Form Data」column. The column of data
 As we can see, **「_token」** is a random word. Thus, before login, I turn to **「Element」** page to find where is the _token is it and write down the code.
 
 ![alt text](https://raw.githubusercontent.com/ahoucbvtw/PWCC_Crawler/main/Picture/04.jpg "The _token random word")
+
+**To catch 「_token」  code：**
 
 ```csrftoken = soupresult.find("meta",{"name":"csrf-token"}).get('content')```
  
