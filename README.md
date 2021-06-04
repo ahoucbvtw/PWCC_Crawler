@@ -32,10 +32,10 @@ As we can see, **「_token」** is a random word. Thus, before login, I turn to 
  
  ## Result
  
- This is all of data in is this card：[2003 lebron rc topps chrome refractor psa](https://reurl.cc/XWeqQg), amd I was built the Table below.
+ This is all of data in is this card：[2003 lebron rc topps chrome refractor psa](https://reurl.cc/XWeqQg), and I was built the Table below.
  
  ![alt text](https://raw.githubusercontent.com/ahoucbvtw/PWCC_Crawler/main/Picture/05.jpg "The table of crawled data")
    
- And here is the total price of year run chart.
+ Here is the total price of year run chart.
   
  ![alt text](https://raw.githubusercontent.com/ahoucbvtw/PWCC_Crawler/main/Picture/07.png "The total price of run chart")
