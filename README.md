@@ -6,7 +6,7 @@ Today my target is this card：[2003 lebron rc topps chrome refractor psa](https
 My mission is to grab all the information in this site data like picture link, sold card name, sold price etc all we can saw the useful information. Than, sort out this data to the total price of year run chart.
 
 ## Ordeal
-The Sold price is a difficult point for crawler in PWCC. The reason is if want to see the sold price data, it must be logged in.
+The Sold price is a difficult point for crawler in PWCC. The reason is, if want to see the sold price data, it must be logged in.
 
 ![alt text](https://raw.githubusercontent.com/ahoucbvtw/PWCC_Crawler/main/Picture/01.jpg "The problem of crawler in PWCC")
 
