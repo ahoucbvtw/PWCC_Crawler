@@ -3,10 +3,10 @@ This is a web crawler for PWCC, which is the leader in the trading card investme
 
 Today my target is this card：[2003 lebron rc topps chrome refractor psa](https://reurl.cc/XWeqQg).
 
-My mission is to grab all the information in this site data like picture link, sold card name, sold price etc all we can saw the useful information. Than, sort out this data to the total price of year run chart.
+My mission is to grab all the information in this site data like picture link, sold card name, sold price etc all we can saw the useful information. Than, sort out this data to the total price of years run chart.
 
 ## Ordeal
-The Sold price is a difficult point for crawler in PWCC. The reason is, if want to see the sold price data, it must be logged in.
+The sold price is a difficult point for crawler in PWCC. In order to see the sold price, we must be logged in.
 
 ![alt text](https://raw.githubusercontent.com/ahoucbvtw/PWCC_Crawler/main/Picture/01.jpg "The problem of crawler in PWCC")
 
@@ -30,7 +30,7 @@ As we can see, **「_token」** is a random word. Thus, before login, I turn to 
 
 **```csrftoken = soupresult.find("meta",{"name":"csrf-token"}).get('content')```**
  
- *ps. If any one want to see the source code when login success, login fail and after login price, I also upload these three html files in this repository.*
+ *ps. If anyone who want to see the source code when login success, login fail and after login price, I also upload these three html files in this repository.*
  
  ## Result
  
@@ -38,6 +38,6 @@ As we can see, **「_token」** is a random word. Thus, before login, I turn to 
  
  ![alt text](https://raw.githubusercontent.com/ahoucbvtw/PWCC_Crawler/main/Picture/05.jpg "The table of crawled data")
    
- Here is the total price of year run chart.
+ Here is the total price of years run chart.
   
  ![alt text](https://raw.githubusercontent.com/ahoucbvtw/PWCC_Crawler/main/Picture/07.png "The total price of run chart")
