@@ -26,7 +26,7 @@ As we can see, **「_token」** is a random word. Thus, before login, I turn to 
 
 **To catch 「_token」  code：**
 
-```csrftoken = soupresult.find("meta",{"name":"csrf-token"}).get('content')```
+**```csrftoken = soupresult.find("meta",{"name":"csrf-token"}).get('content')```**
  
  *ps. If any one want to see the source code when login success, login fail and after login price, I also upload these three html files in this repository.*
  
